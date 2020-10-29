@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lambda-lanczos
-   &#160;<span id="projectnumber">1.1.0</span>
+   &#160;<span id="projectnumber">1.1.1</span>
    </div>
   </td>
  </tr>
@@ -133,6 +133,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a65ef9c010ec09df96bc463a8be7567c9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacelambda__lanczos_1_1util.html#ae15551a97d189ebb084d85db216c1e6c">real_t</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelambda__lanczos_1_1util.html#a65ef9c010ec09df96bc463a8be7567c9">l1_norm</a> (const std::vector&lt; T &gt; &amp;vec)</td></tr>
 <tr class="memdesc:a65ef9c010ec09df96bc463a8be7567c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns 1-norm of given vector.  <a href="namespacelambda__lanczos_1_1util.html#a65ef9c010ec09df96bc463a8be7567c9">More...</a><br /></td></tr>
 <tr class="separator:a65ef9c010ec09df96bc463a8be7567c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a662543d97adb871fff080b57c7f51030"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a662543d97adb871fff080b57c7f51030"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelambda__lanczos_1_1util.html#a662543d97adb871fff080b57c7f51030">schmidt_orth</a> (std::vector&lt; T &gt; &amp;uorth, const std::vector&lt; std::vector&lt; T &gt;&gt; &amp;u)</td></tr>
+<tr class="memdesc:a662543d97adb871fff080b57c7f51030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orthogonalizes vector <code>uorth</code> with respect to vectors in <code>u</code>.  <a href="namespacelambda__lanczos_1_1util.html#a662543d97adb871fff080b57c7f51030">More...</a><br /></td></tr>
+<tr class="separator:a662543d97adb871fff080b57c7f51030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e1bee442695d2b219373d3039735ed5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a0e1bee442695d2b219373d3039735ed5"><td class="memTemplItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelambda__lanczos_1_1util.html#a0e1bee442695d2b219373d3039735ed5">sig_decimal_digit</a> ()</td></tr>
 <tr class="memdesc:a0e1bee442695d2b219373d3039735ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the significant decimal digits of type T.  <a href="namespacelambda__lanczos_1_1util.html#a0e1bee442695d2b219373d3039735ed5">More...</a><br /></td></tr>
@@ -359,6 +363,39 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Multiplies each element of vec by a. </p>
+
+</div>
+</div>
+<a id="a662543d97adb871fff080b57c7f51030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a662543d97adb871fff080b57c7f51030">&#9670;&nbsp;</a></span>schmidt_orth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void lambda_lanczos::util::schmidt_orth </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>uorth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Orthogonalizes vector <code>uorth</code> with respect to vectors in <code>u</code>. </p>
+<p>Vectors in <code>u</code> must be normalized, but uorth doesn't have to be. </p>
 
 </div>
 </div>

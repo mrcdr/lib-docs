@@ -6,7 +6,6 @@ var classlambda__lanczos_1_1LambdaLanczos =
     [ "num_of_eigs_smaller_than", "classlambda__lanczos_1_1LambdaLanczos.html#a11c5ad21516bce860357f19b95a823d1", null ],
     [ "run", "classlambda__lanczos_1_1LambdaLanczos.html#a1ed2c486ffbf0be41e069fdbe5f37a0b", null ],
     [ "run", "classlambda__lanczos_1_1LambdaLanczos.html#aae5f01a9613aa4660ef8e9fbb2fe3444", null ],
-    [ "schmidt_orth", "classlambda__lanczos_1_1LambdaLanczos.html#ae24a2867083d6e12f8376ddae33c87be", null ],
     [ "tridiagonal_eigen_limit", "classlambda__lanczos_1_1LambdaLanczos.html#a5ab15ea1fa89ab47bd689b975b7a9e90", null ],
     [ "eigenvalue_offset", "classlambda__lanczos_1_1LambdaLanczos.html#abaff9abce710c96bb4ae1a2af529e397", null ],
     [ "eps", "classlambda__lanczos_1_1LambdaLanczos.html#a64e0697da602616ab78b2a2ae2a87721", null ],

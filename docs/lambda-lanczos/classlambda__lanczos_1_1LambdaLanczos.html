@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lambda-lanczos
-   &#160;<span id="projectnumber">1.1.0</span>
+   &#160;<span id="projectnumber">1.1.1</span>
    </div>
   </td>
  </tr>
@@ -149,9 +149,6 @@ Private Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ae24a2867083d6e12f8376ddae33c87be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlambda__lanczos_1_1LambdaLanczos.html#ae24a2867083d6e12f8376ddae33c87be">schmidt_orth</a> (std::vector&lt; T &gt; &amp;uorth, const std::vector&lt; std::vector&lt; T &gt;&gt; &amp;u) const</td></tr>
-<tr class="memdesc:ae24a2867083d6e12f8376ddae33c87be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orthogonalizes vector <code>uorth</code> with respect to vectors in <code>u</code>.  <a href="classlambda__lanczos_1_1LambdaLanczos.html#ae24a2867083d6e12f8376ddae33c87be">More...</a><br /></td></tr>
-<tr class="separator:ae24a2867083d6e12f8376ddae33c87be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2f986c23387a74b16e077644e4d97a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacelambda__lanczos_1_1util.html#ae15551a97d189ebb084d85db216c1e6c">util::real_t</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlambda__lanczos_1_1LambdaLanczos.html#ab2f986c23387a74b16e077644e4d97a2">find_mth_eigenvalue</a> (const std::vector&lt; <a class="el" href="namespacelambda__lanczos_1_1util.html#ae15551a97d189ebb084d85db216c1e6c">util::real_t</a>&lt; T &gt;&gt; &amp;alpha, const std::vector&lt; <a class="el" href="namespacelambda__lanczos_1_1util.html#ae15551a97d189ebb084d85db216c1e6c">util::real_t</a>&lt; T &gt;&gt; &amp;beta, const size_t m) const</td></tr>
 <tr class="memdesc:ab2f986c23387a74b16e077644e4d97a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the <code>m</code>th smaller eigenvalue of given tridiagonal matrix.  <a href="classlambda__lanczos_1_1LambdaLanczos.html#ab2f986c23387a74b16e077644e4d97a2">More...</a><br /></td></tr>
 <tr class="separator:ab2f986c23387a74b16e077644e4d97a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -418,47 +415,6 @@ template&lt;typename T &gt; </div>
 
 <p>Executes Lanczos algorithm and stores the result into reference variables passed as arguments. </p>
 <dl class="section return"><dt>Returns</dt><dd>Lanczos-iteration count </dd></dl>
-
-</div>
-</div>
-<a id="ae24a2867083d6e12f8376ddae33c87be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae24a2867083d6e12f8376ddae33c87be">&#9670;&nbsp;</a></span>schmidt_orth()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classlambda__lanczos_1_1LambdaLanczos.html">lambda_lanczos::LambdaLanczos</a>&lt; T &gt;::schmidt_orth </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>uorth</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; std::vector&lt; T &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>u</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Orthogonalizes vector <code>uorth</code> with respect to vectors in <code>u</code>. </p>
-<p>Vectors in <code>u</code> must be normalized, but uorth doesn't have to be. </p>
 
 </div>
 </div>

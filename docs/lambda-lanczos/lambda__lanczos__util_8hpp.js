@@ -11,5 +11,6 @@ var lambda__lanczos__util_8hpp =
     [ "norm", "lambda__lanczos__util_8hpp.html#adb626f86965a358c0966af537e4f8fcb", null ],
     [ "normalize", "lambda__lanczos__util_8hpp.html#a0e17f6a13736c7950e32b564492dce3b", null ],
     [ "scalar_mul", "lambda__lanczos__util_8hpp.html#a0e613bfaf652f24ae68911d0d0908d49", null ],
+    [ "schmidt_orth", "lambda__lanczos__util_8hpp.html#a662543d97adb871fff080b57c7f51030", null ],
     [ "sig_decimal_digit", "lambda__lanczos__util_8hpp.html#a0e1bee442695d2b219373d3039735ed5", null ]
 ];
