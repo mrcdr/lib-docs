@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lambda-lanczos
-   &#160;<span id="projectnumber">1.1.1</span>
+   &#160;<span id="projectnumber">1.1.2</span>
    </div>
   </td>
  </tr>
@@ -135,7 +135,7 @@ Functions</h2></td></tr>
 <tr class="separator:a65ef9c010ec09df96bc463a8be7567c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a662543d97adb871fff080b57c7f51030"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a662543d97adb871fff080b57c7f51030"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelambda__lanczos_1_1util.html#a662543d97adb871fff080b57c7f51030">schmidt_orth</a> (std::vector&lt; T &gt; &amp;uorth, const std::vector&lt; std::vector&lt; T &gt;&gt; &amp;u)</td></tr>
-<tr class="memdesc:a662543d97adb871fff080b57c7f51030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orthogonalizes vector <code>uorth</code> with respect to vectors in <code>u</code>.  <a href="namespacelambda__lanczos_1_1util.html#a662543d97adb871fff080b57c7f51030">More...</a><br /></td></tr>
+<tr class="memdesc:a662543d97adb871fff080b57c7f51030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orthogonalizes vector <code>uorth</code> with respect to orthonormal vectors in <code>u</code>.  <a href="namespacelambda__lanczos_1_1util.html#a662543d97adb871fff080b57c7f51030">More...</a><br /></td></tr>
 <tr class="separator:a662543d97adb871fff080b57c7f51030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e1bee442695d2b219373d3039735ed5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a0e1bee442695d2b219373d3039735ed5"><td class="memTemplItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacelambda__lanczos_1_1util.html#a0e1bee442695d2b219373d3039735ed5">sig_decimal_digit</a> ()</td></tr>
@@ -161,8 +161,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Type mapper from <code>T</code> to real type of <code>T</code>. </p>
-<p>By default, <code>real_t&lt;T&gt;</code> returns <code>T</code>. However <code>real_t&lt;complex&lt;T&gt;&gt;</code> returns <code>T</code>. <br  />
- Usage example: This function returns a real number even if <code>T</code> is complex: </p><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<p>By default, <code>real_t&lt;T&gt;</code> returns <code>T</code>. However <code>real_t&lt;complex&lt;T&gt;&gt;</code> returns <code>T</code>. Usage example: This function returns a real number even if <code>T</code> is complex: </p><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><span class="keyword">inline</span> real_t&lt;T&gt; <a class="code" href="namespacelambda__lanczos_1_1util.html#adb626f86965a358c0966af537e4f8fcb">norm</a>(<span class="keyword">const</span> std::vector&lt;T&gt;&amp; vec);</div>
 </div><!-- fragment --> 
 </div>
@@ -373,6 +372,9 @@ template&lt;typename T1 , typename T2 &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void lambda_lanczos::util::schmidt_orth </td>
@@ -392,9 +394,14 @@ template&lt;typename T &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Orthogonalizes vector <code>uorth</code> with respect to vectors in <code>u</code>. </p>
+<p>Orthogonalizes vector <code>uorth</code> with respect to orthonormal vectors in <code>u</code>. </p>
 <p>Vectors in <code>u</code> must be normalized, but uorth doesn't have to be. </p>
 
 </div>
@@ -430,7 +437,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespacelambda__lanczos_1_1util_html_adb626f86965a358c0966af537e4f8fcb"><div class="ttname"><a href="namespacelambda__lanczos_1_1util.html#adb626f86965a358c0966af537e4f8fcb">lambda_lanczos::util::norm</a></div><div class="ttdeci">real_t&lt; T &gt; norm(const std::vector&lt; T &gt; &amp;vec)</div><div class="ttdoc">Returns Euclidean norm of given vector.</div><div class="ttdef"><b>Definition:</b> lambda_lanczos_util.hpp:86</div></div>
+<div class="ttc" id="anamespacelambda__lanczos_1_1util_html_adb626f86965a358c0966af537e4f8fcb"><div class="ttname"><a href="namespacelambda__lanczos_1_1util.html#adb626f86965a358c0966af537e4f8fcb">lambda_lanczos::util::norm</a></div><div class="ttdeci">real_t&lt; T &gt; norm(const std::vector&lt; T &gt; &amp;vec)</div><div class="ttdoc">Returns Euclidean norm of given vector.</div><div class="ttdef"><b>Definition:</b> lambda_lanczos_util.hpp:88</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
