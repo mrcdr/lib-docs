@@ -1,8 +1,17 @@
 var searchData=
 [
-  ['mainpage_2edox_16',['mainpage.dox',['../mainpage_8dox.html',1,'']]],
-  ['matrix_5fsize_17',['matrix_size',['../classlambda__lanczos_1_1LambdaLanczos.html#aa801c808ec4824d9a5a8a0137c8259ba',1,'lambda_lanczos::LambdaLanczos']]],
-  ['max_5fiteration_18',['max_iteration',['../classlambda__lanczos_1_1LambdaLanczos.html#a11464fdd2a5a468364fb7e195901273f',1,'lambda_lanczos::LambdaLanczos']]],
-  ['minimum_5feffective_5fdecimal_19',['minimum_effective_decimal',['../namespacelambda__lanczos_1_1util.html#a306538787d21f29b8f91b42b231290a6',1,'lambda_lanczos::util']]],
-  ['mv_5fmul_20',['mv_mul',['../classlambda__lanczos_1_1LambdaLanczos.html#a74cd416776886eb6efc5506546357dd0',1,'lambda_lanczos::LambdaLanczos']]]
+  ['eigenpair_5fmanager_0',['eigenpair_manager',['../namespacelambda__lanczos_1_1eigenpair__manager.html',1,'lambda_lanczos']]],
+  ['l1_5fnorm_1',['l1_norm',['../namespacelambda__lanczos_1_1util.html#afef99a4d10a59dd52d76654421c264f7',1,'lambda_lanczos::util']]],
+  ['lambda_2dlanczos_2',['lambda-lanczos',['../index.html',1,'']]],
+  ['lambda_5flanczos_3',['lambda_lanczos',['../namespacelambda__lanczos.html',1,'']]],
+  ['lambda_5flanczos_2ehpp_4',['lambda_lanczos.hpp',['../lambda__lanczos_8hpp.html',1,'']]],
+  ['lambda_5flanczos_5ftridiagonal_2ehpp_5',['lambda_lanczos_tridiagonal.hpp',['../lambda__lanczos__tridiagonal_8hpp.html',1,'']]],
+  ['lambda_5flanczos_5ftridiagonal_5fimpl_2ehpp_6',['lambda_lanczos_tridiagonal_impl.hpp',['../lambda__lanczos__tridiagonal__impl_8hpp.html',1,'']]],
+  ['lambda_5flanczos_5ftridiagonal_5flapack_2ehpp_7',['lambda_lanczos_tridiagonal_lapack.hpp',['../lambda__lanczos__tridiagonal__lapack_8hpp.html',1,'']]],
+  ['lambda_5flanczos_5futil_2ehpp_8',['lambda_lanczos_util.hpp',['../lambda__lanczos__util_8hpp.html',1,'']]],
+  ['lambdalanczos_9',['LambdaLanczos',['../classlambda__lanczos_1_1LambdaLanczos.html',1,'lambda_lanczos::LambdaLanczos&lt; T &gt;'],['../classlambda__lanczos_1_1LambdaLanczos.html#a6ce3cb9a52d582ac59218709e2509fdc',1,'lambda_lanczos::LambdaLanczos::LambdaLanczos()']]],
+  ['tridiagonal_10',['tridiagonal',['../namespacelambda__lanczos_1_1tridiagonal.html',1,'lambda_lanczos']]],
+  ['tridiagonal_5fimpl_11',['tridiagonal_impl',['../namespacelambda__lanczos_1_1tridiagonal__impl.html',1,'lambda_lanczos']]],
+  ['tridiagonal_5flapack_12',['tridiagonal_lapack',['../namespacelambda__lanczos_1_1tridiagonal__lapack.html',1,'lambda_lanczos']]],
+  ['util_13',['util',['../namespacelambda__lanczos_1_1util.html',1,'lambda_lanczos']]]
 ];

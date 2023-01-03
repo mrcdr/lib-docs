@@ -1,12 +1,13 @@
 var indexSectionsWithContent =
 {
-  0: "cefilmnprstv",
-  1: "clrv",
+  0: "cefgilmnorstv",
+  1: "elmrtv",
   2: "l",
-  3: "lm",
-  4: "filmnprst",
-  5: "efimt",
-  6: "rt"
+  3: "elm",
+  4: "cefgilmnorstv",
+  5: "efimn",
+  6: "mrt",
+  7: "l"
 };
 
 var indexSectionNames =
@@ -17,7 +18,8 @@ var indexSectionNames =
   3: "files",
   4: "functions",
   5: "variables",
-  6: "typedefs"
+  6: "typedefs",
+  7: "pages"
 };
 
 var indexSectionLabels =
@@ -28,6 +30,7 @@ var indexSectionLabels =
   3: "Files",
   4: "Functions",
   5: "Variables",
-  6: "Typedefs"
+  6: "Typedefs",
+  7: "Pages"
 };
 

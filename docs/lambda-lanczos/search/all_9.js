@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['scalar_5fmul_29',['scalar_mul',['../namespacelambda__lanczos_1_1util.html#a0e613bfaf652f24ae68911d0d0908d49',1,'lambda_lanczos::util']]],
-  ['schmidt_5forth_30',['schmidt_orth',['../namespacelambda__lanczos_1_1util.html#a662543d97adb871fff080b57c7f51030',1,'lambda_lanczos::util']]],
-  ['sig_5fdecimal_5fdigit_31',['sig_decimal_digit',['../namespacelambda__lanczos_1_1util.html#a0e1bee442695d2b219373d3039735ed5',1,'lambda_lanczos::util']]]
+  ['real_5ft_0',['real_t',['../classlambda__lanczos_1_1eigenpair__manager_1_1EigenPairManager.html#aeed9cb8d77152d7ea6d0baceede08e94',1,'lambda_lanczos::eigenpair_manager::EigenPairManager::real_t()'],['../classlambda__lanczos_1_1Exponentiator.html#a8cbdee89b14fcef30cdf135e2acd4754',1,'lambda_lanczos::Exponentiator::real_t()'],['../classlambda__lanczos_1_1LambdaLanczos.html#a307a20f54ea2ccf65eae5c4d9bc2019e',1,'lambda_lanczos::LambdaLanczos::real_t()'],['../namespacelambda__lanczos_1_1util.html#ae15551a97d189ebb084d85db216c1e6c',1,'lambda_lanczos::util::real_t()']]],
+  ['realtypemap_1',['realTypeMap',['../structlambda__lanczos_1_1util_1_1realTypeMap.html',1,'lambda_lanczos::util']]],
+  ['realtypemap_3c_20std_3a_3acomplex_3c_20t_20_3e_20_3e_2',['realTypeMap&lt; std::complex&lt; T &gt; &gt;',['../structlambda__lanczos_1_1util_1_1realTypeMap_3_01std_1_1complex_3_01T_01_4_01_4.html',1,'lambda_lanczos::util']]],
+  ['run_3',['run',['../classlambda__lanczos_1_1Exponentiator.html#ab47dd9b3533916f9cd465e85da038350',1,'lambda_lanczos::Exponentiator::run()'],['../classlambda__lanczos_1_1LambdaLanczos.html#a7975b7bf74d063ce4d02ef9bc1283702',1,'lambda_lanczos::LambdaLanczos::run(std::vector&lt; real_t&lt; T &gt; &gt; &amp;eigenvalues, std::vector&lt; std::vector&lt; T &gt; &gt; &amp;eigenvectors)'],['../classlambda__lanczos_1_1LambdaLanczos.html#a19fc82f6b8567f78db553c54df68712b',1,'lambda_lanczos::LambdaLanczos::run()'],['../classlambda__lanczos_1_1LambdaLanczos.html#aefed7497113c0431340f5bc354111e67',1,'lambda_lanczos::LambdaLanczos::run(real_t&lt; T &gt; &amp;eigenvalue, std::vector&lt; T &gt; &amp;eigenvector)']]],
+  ['run_5fiteration_4',['run_iteration',['../classlambda__lanczos_1_1LambdaLanczos.html#a7f0979176314a65059f406eaaf1c8317',1,'lambda_lanczos::LambdaLanczos']]]
 ];

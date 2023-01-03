@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['init_6',['init',['../structlambda__lanczos_1_1VectorRandomInitializer.html#a32ab9657481db1f3853c51245b56c0bb',1,'lambda_lanczos::VectorRandomInitializer::init()'],['../structlambda__lanczos_1_1VectorRandomInitializer_3_01std_1_1complex_3_01T_01_4_01_4.html#aecbfec73479ed0b16309ccf535d5ec52',1,'lambda_lanczos::VectorRandomInitializer&lt; std::complex&lt; T &gt; &gt;::init()']]],
-  ['init_5fvector_7',['init_vector',['../classlambda__lanczos_1_1LambdaLanczos.html#a8bf99c846f4d5ace9e2f11e5491da394',1,'lambda_lanczos::LambdaLanczos']]],
-  ['initial_5fvector_5fsize_8',['initial_vector_size',['../classlambda__lanczos_1_1LambdaLanczos.html#ae6eb35015a9325673d7ae000dd725a2b',1,'lambda_lanczos::LambdaLanczos']]],
-  ['inner_5fprod_9',['inner_prod',['../namespacelambda__lanczos_1_1util.html#a8eb02cbf87ffd6e8e2b123b9ed1a51f0',1,'lambda_lanczos::util']]]
+  ['geteigenpairs_0',['getEigenpairs',['../classlambda__lanczos_1_1eigenpair__manager_1_1EigenPairManager.html#aa8cb5f061722b3855dafad0170a7d896',1,'lambda_lanczos::eigenpair_manager::EigenPairManager']]],
+  ['geteigenvectors_1',['getEigenvectors',['../classlambda__lanczos_1_1eigenpair__manager_1_1EigenPairManager.html#accdb672a8b01018f8b6472d18e72c20b',1,'lambda_lanczos::eigenpair_manager::EigenPairManager']]],
+  ['getiterationcounts_2',['getIterationCounts',['../classlambda__lanczos_1_1LambdaLanczos.html#abd9468f8699cffb43a0c020f21ebaa6d',1,'lambda_lanczos::LambdaLanczos']]]
 ];

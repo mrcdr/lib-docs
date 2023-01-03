@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type_74',['type',['../structlambda__lanczos_1_1util_1_1realTypeMap.html#acaea3e84fd356356824a7a0980cf3cb9',1,'lambda_lanczos::util::realTypeMap::type()'],['../structlambda__lanczos_1_1util_1_1realTypeMap_3_01std_1_1complex_3_01T_01_4_01_4.html#a4a0614d4ffb1990f5bfe496a614bb25a',1,'lambda_lanczos::util::realTypeMap&lt; std::complex&lt; T &gt; &gt;::type()']]]
+  ['real_5ft_0',['real_t',['../classlambda__lanczos_1_1eigenpair__manager_1_1EigenPairManager.html#aeed9cb8d77152d7ea6d0baceede08e94',1,'lambda_lanczos::eigenpair_manager::EigenPairManager::real_t()'],['../classlambda__lanczos_1_1Exponentiator.html#a8cbdee89b14fcef30cdf135e2acd4754',1,'lambda_lanczos::Exponentiator::real_t()'],['../classlambda__lanczos_1_1LambdaLanczos.html#a307a20f54ea2ccf65eae5c4d9bc2019e',1,'lambda_lanczos::LambdaLanczos::real_t()'],['../namespacelambda__lanczos_1_1util.html#ae15551a97d189ebb084d85db216c1e6c',1,'lambda_lanczos::util::real_t()']]]
 ];

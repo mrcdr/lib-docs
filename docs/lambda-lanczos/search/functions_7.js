@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['scalar_5fmul_60',['scalar_mul',['../namespacelambda__lanczos_1_1util.html#a0e613bfaf652f24ae68911d0d0908d49',1,'lambda_lanczos::util']]],
-  ['schmidt_5forth_61',['schmidt_orth',['../namespacelambda__lanczos_1_1util.html#a662543d97adb871fff080b57c7f51030',1,'lambda_lanczos::util']]],
-  ['sig_5fdecimal_5fdigit_62',['sig_decimal_digit',['../namespacelambda__lanczos_1_1util.html#a0e1bee442695d2b219373d3039735ed5',1,'lambda_lanczos::util']]]
+  ['norm_0',['norm',['../namespacelambda__lanczos_1_1util.html#a25ad191de43b2f6e500a254ce54c94cc',1,'lambda_lanczos::util']]],
+  ['normalize_1',['normalize',['../namespacelambda__lanczos_1_1util.html#a0e17f6a13736c7950e32b564492dce3b',1,'lambda_lanczos::util']]],
+  ['num_5fof_5feigs_5fsmaller_5fthan_2',['num_of_eigs_smaller_than',['../namespacelambda__lanczos_1_1tridiagonal__impl.html#a2de6ded93c0b03c0d8e856a8b2e05cba',1,'lambda_lanczos::tridiagonal_impl']]]
 ];

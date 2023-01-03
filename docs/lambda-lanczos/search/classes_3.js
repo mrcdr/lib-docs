@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['vectorrandominitializer_42',['VectorRandomInitializer',['../structlambda__lanczos_1_1VectorRandomInitializer.html',1,'lambda_lanczos']]],
-  ['vectorrandominitializer_3c_20std_3a_3acomplex_3c_20t_20_3e_20_3e_43',['VectorRandomInitializer&lt; std::complex&lt; T &gt; &gt;',['../structlambda__lanczos_1_1VectorRandomInitializer_3_01std_1_1complex_3_01T_01_4_01_4.html',1,'lambda_lanczos']]]
+  ['realtypemap_0',['realTypeMap',['../structlambda__lanczos_1_1util_1_1realTypeMap.html',1,'lambda_lanczos::util']]],
+  ['realtypemap_3c_20std_3a_3acomplex_3c_20t_20_3e_20_3e_1',['realTypeMap&lt; std::complex&lt; T &gt; &gt;',['../structlambda__lanczos_1_1util_1_1realTypeMap_3_01std_1_1complex_3_01T_01_4_01_4.html',1,'lambda_lanczos::util']]]
 ];
