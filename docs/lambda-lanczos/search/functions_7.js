@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['norm_0',['norm',['../namespacelambda__lanczos_1_1util.html#a25ad191de43b2f6e500a254ce54c94cc',1,'lambda_lanczos::util']]],
+  ['norm_0',['norm',['../namespacelambda__lanczos_1_1util.html#a25ad191de43b2f6e500a254ce54c94cc',1,'lambda_lanczos::util::norm(const std::vector&lt; T &gt; &amp;vec)'],['../namespacelambda__lanczos_1_1util.html#a308f711e87740851806c5a7167ff431f',1,'lambda_lanczos::util::norm(const std::vector&lt; float &gt; &amp;vec)'],['../namespacelambda__lanczos_1_1util.html#a4a110d03ad76ca7d9aa663236530c73d',1,'lambda_lanczos::util::norm(const std::vector&lt; double &gt; &amp;vec)'],['../namespacelambda__lanczos_1_1util.html#af5df9a82d523b805986e87d16b1548c0',1,'lambda_lanczos::util::norm(const std::vector&lt; std::complex&lt; float &gt; &gt; &amp;vec)'],['../namespacelambda__lanczos_1_1util.html#a7a2dbf44d5184fb2f41da58fcf2af6a4',1,'lambda_lanczos::util::norm(const std::vector&lt; std::complex&lt; double &gt; &gt; &amp;vec)']]],
   ['normalize_1',['normalize',['../namespacelambda__lanczos_1_1util.html#a0e17f6a13736c7950e32b564492dce3b',1,'lambda_lanczos::util']]],
   ['num_5fof_5feigs_5fsmaller_5fthan_2',['num_of_eigs_smaller_than',['../namespacelambda__lanczos_1_1tridiagonal__impl.html#a2de6ded93c0b03c0d8e856a8b2e05cba',1,'lambda_lanczos::tridiagonal_impl']]]
 ];

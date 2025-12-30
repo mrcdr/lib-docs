@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['mapvalueiterable_0',['MapValueIterable',['../classlambda__lanczos_1_1util_1_1MapValueIterable.html#a241fe20aca3980f9e584c011c0b7ccaf',1,'lambda_lanczos::util::MapValueIterable']]],
-  ['minimum_5feffective_5fdecimal_1',['minimum_effective_decimal',['../namespacelambda__lanczos_1_1util.html#a306538787d21f29b8f91b42b231290a6',1,'lambda_lanczos::util']]]
+  ['m_5fnorm_0',['m_norm',['../namespacelambda__lanczos_1_1util.html#a7588cceb92260ba8ed99f1b22b8e31c3',1,'lambda_lanczos::util::m_norm(const std::vector&lt; T &gt; &amp;vec)'],['../namespacelambda__lanczos_1_1util.html#abb3dd29840a75bb01c1c3bb4897ddbd6',1,'lambda_lanczos::util::m_norm(const std::vector&lt; float &gt; &amp;vec)'],['../namespacelambda__lanczos_1_1util.html#a02acf6ebe16f104eac69a40b5d4dfaf7',1,'lambda_lanczos::util::m_norm(const std::vector&lt; double &gt; &amp;vec)'],['../namespacelambda__lanczos_1_1util.html#a66ea74beec59dd071f16d3f510ec516b',1,'lambda_lanczos::util::m_norm(const std::vector&lt; std::complex&lt; float &gt; &gt; &amp;vec)'],['../namespacelambda__lanczos_1_1util.html#aec01c8fce0a7d3a436a7b4f057bc9c2b',1,'lambda_lanczos::util::m_norm(const std::vector&lt; std::complex&lt; double &gt; &gt; &amp;vec)']]],
+  ['mapvalueiterable_1',['MapValueIterable',['../classlambda__lanczos_1_1util_1_1MapValueIterable.html#a241fe20aca3980f9e584c011c0b7ccaf',1,'lambda_lanczos::util::MapValueIterable']]],
+  ['minimum_5feffective_5fdecimal_2',['minimum_effective_decimal',['../namespacelambda__lanczos_1_1util.html#a306538787d21f29b8f91b42b231290a6',1,'lambda_lanczos::util']]]
 ];
